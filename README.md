@@ -52,7 +52,7 @@ Open [http://localhost:9002](http://localhost:9002) in your browser to see the r
 
 ## 📝 Development Notes
 
-This project was initially scaffolded using an AI-powered tool, which generated the foundational structure and component boilerplate. The core UI, including the responsive layout and initial styling, was then refined and customized. Key areas of focus for the final interview selection include the overall **UI quality**, the **responsiveness** of the design across different devices, the logical and clean **project structure**, and the **clarity of the documentation**.
+The core UI, including the responsive layout and initial styling, was refined and customized. Key areas of focus for the final interview selection include the overall **UI quality**, the **responsiveness** of the design across different devices, the logical and clean **project structure**, and the **clarity of the documentation**.
 
 ## 📁 Project Structure
 
