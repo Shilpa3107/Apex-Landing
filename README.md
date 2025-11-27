@@ -50,6 +50,28 @@ npm run dev
 
 Open [http://localhost:9002](http://localhost:9002) in your browser to see the result.
 
+## 📁 Project Structure
+
+The project follows a standard Next.js App Router structure, with a clear separation of concerns:
+
+-   `src/app/`: Contains the core application logic, including pages and layouts.
+    -   `page.tsx`: The main entry point for the landing page.
+    -   `layout.tsx`: The root layout for the application.
+    -   `globals.css`: Global styles and Tailwind CSS configuration.
+-   `src/components/`: Home to all React components.
+    -   `landing/`: Components specifically designed for the landing page (e.g., `HeroSection`, `Footer`).
+    -   `ui/`: Reusable, general-purpose UI components provided by ShadCN (e.g., `Button`, `Card`).
+-   `src/lib/`: Includes utility functions and helper modules.
+    -   `utils.ts`: Common utility functions, such as `cn` for combining class names.
+    -   `placeholder-images.ts`: Manages placeholder image data for the UI.
+-   `src/ai/`: Contains Genkit flows and AI-related functionality.
+-   `public/`: Stores static assets like images and fonts that are served directly.
+-   `package.json`: Lists project dependencies and defines npm scripts.
+
+## 📝 Documentation
+
+Clarity in documentation is a priority for this project. We strive to maintain a clean and understandable codebase, with JSDoc comments for complex logic where necessary. The goal is to make the project easy to navigate, maintain, and extend for any developer.
+
 ## 📜 Available Scripts
 
 In the project directory, you can run:
@@ -57,4 +79,4 @@ In the project directory, you can run:
 *   `npm run dev`: Runs the app in development mode.
 *   `npm run build`: Builds the app for production.
 *   `npm run start`: Starts a production server.
-*   `npm run lint`: Lints the code to catch errors.# Apex-Landing
+*   `npm run lint`: Lints the code to catch errors.
