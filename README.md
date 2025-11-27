@@ -50,6 +50,10 @@ npm run dev
 
 Open [http://localhost:9002](http://localhost:9002) in your browser to see the result.
 
+## 📝 Development Notes
+
+This project was initially scaffolded using an AI-powered tool, which generated the foundational structure and component boilerplate. The core UI, including the responsive layout and initial styling, was then refined and customized. Key areas of focus for the final interview selection include the overall **UI quality**, the **responsiveness** of the design across different devices, the logical and clean **project structure**, and the **clarity of the documentation**.
+
 ## 📁 Project Structure
 
 The project follows a standard Next.js App Router structure, with a clear separation of concerns:
@@ -67,10 +71,6 @@ The project follows a standard Next.js App Router structure, with a clear separa
 -   `src/ai/`: Contains Genkit flows and AI-related functionality.
 -   `public/`: Stores static assets like images and fonts that are served directly.
 -   `package.json`: Lists project dependencies and defines npm scripts.
-
-## 📝 Documentation
-
-Clarity in documentation is a priority for this project. We strive to maintain a clean and understandable codebase, with JSDoc comments for complex logic where necessary. The goal is to make the project easy to navigate, maintain, and extend for any developer.
 
 ## 📜 Available Scripts
 
